@@ -3,7 +3,7 @@
 
 I hadn't done password cracking before but I knew in principle how things worked. The `0` of `m0nkeys` in the description was probably a hint but I didn't notice that until completing the challenge.
 
-First task was to hastily google for some LotR and GoT character names and throw them in to a file. It made sense to remove all spaces from the names although looking back it would have been better to include all combinations: 'Firstname', 'Lastname' and 'FirstnameLastname'. Luckily the password ended up being 'FirstnameLastname'. The wordlist that was used is [here](https://github.com/karvonen/ctf/CyberSecurityBaseCTF/files/wordlist).
+First task was to hastily google for some LotR and GoT character names and throw them in to a file. It made sense to remove all spaces from the names although looking back it would have been better to include all combinations: 'Firstname', 'Lastname' and 'FirstnameLastname'. Luckily the password ended up being 'FirstnameLastname'. The wordlist that was used is [here](https://github.com/karvonen/ctf/blob/master/CyberSecurityBaseCTF/files/wordlist).
 
 The rule list used was 'dive' from [hashcat's github repo](https://github.com/hashcat/hashcat/blob/master/rules/dive.rule).
 
@@ -30,5 +30,5 @@ HWMon.Dev.#1.....: Temp: 74c Fan: 33% Util: 89% Core:1885MHz Mem:5005MHz Bus:16
 E:\Downloads\hashcat-3.5.0>type cracked.txt
 $6$LwmDTb98$dAMmGCkiIakUVtT.bhYujjHGAwCd3un9KdYwfEDdJef/H9Q62mKFpOIA84.W0yDOiXKr4T7Gwpgw2JjD.4yGK.:RyellaFr3y
 ```
-Cracking the password took 2m 46s using an overclocked GTX 1080. Flag was 'RyellaFr3y'.
+Cracking the password took 2m 46s using an overclocked GTX 1080. Flag was `RyellaFr3y`.
 
