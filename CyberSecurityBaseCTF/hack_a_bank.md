@@ -17,6 +17,6 @@ And paying the 1200:
 
 /users/ was removed after a quick note to the admin of the CTF.
 
-![Screenshot of an interface with a list of users and the amount of currency they have, and show/edit/destroy links for each](/files/bank.png "Users interface")
+![Screenshot of an interface with a list of users and the amount of currency they have, and show/edit/destroy links for each](files/bank.png "Users interface")
 
 
