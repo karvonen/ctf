@@ -34,7 +34,7 @@ Welcome to the cyber calculator!
 Please type a calculation to proceed. (For example 1+1)
 Segmentation fault
 ```
-There's a crash and now for the flag we need to give a memory address. We can use GDB for this but because the calculator takes input from stdin we first need to write our input to a file and then redirect the file as input inside GDB:
+There's a crash and now for the flag we need to get a memory address. We can use GDB for this but because the calculator takes input from stdin we first need to write our input to a file and then redirect the file as input inside GDB:
 
 ```
 root@kali:~/temp/fuzzy# python -c 'print "1" * 90000' > ff
