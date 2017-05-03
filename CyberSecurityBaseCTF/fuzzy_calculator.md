@@ -55,9 +55,9 @@ And we get our flag, `0x0000000000403670`.
 
 I got lucky in that in my manual testing I put in a long enough input for the program to crash at memcpy to actually get the flag. Many people in the IRC/Matrix channel had problems because they got the program to crash but at a different point.
 
-If your input is shorter than ~83500 characters but longer than 800040 you won't overflow enough and start getting a different crash. The crash will happen at the very end of the program where it's about to return from main.
+If your input is shorter than ~83500 characters but longer than 80040 you won't overflow enough and start getting a different crash. The crash will happen at the very end of the program where it's about to return from main.
 
-Let's give an input of "1" * 81000:
+Let's give an input of `"1" * 81000`:
 
 ```
 root@kali:~/temp/fuzzy# python -c 'print "1"*81000' > ff
